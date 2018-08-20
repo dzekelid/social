@@ -3,7 +3,7 @@ name: Twitter
 x-slug: twitter
 description: From breaking news and entertainment to sports and politics, get the
   full story with all the live commentary.
-image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Social
@@ -15,7 +15,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -29,7 +29,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -47,7 +47,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -69,7 +69,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -95,7 +95,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -125,7 +125,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -159,7 +159,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -197,7 +197,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -239,7 +239,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -285,7 +285,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -335,7 +335,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -389,7 +389,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -447,7 +447,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -509,7 +509,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -575,7 +575,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -645,7 +645,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -719,7 +719,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -797,7 +797,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -879,7 +879,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -965,7 +965,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1055,7 +1055,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1149,7 +1149,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1247,7 +1247,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1349,7 +1349,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1455,7 +1455,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1565,7 +1565,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1679,7 +1679,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1797,7 +1797,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -1919,7 +1919,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2045,7 +2045,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2175,7 +2175,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2309,7 +2309,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2447,7 +2447,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2589,7 +2589,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2735,7 +2735,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -2885,7 +2885,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3039,7 +3039,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3197,7 +3197,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3359,7 +3359,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3525,7 +3525,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3695,7 +3695,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -3869,7 +3869,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4047,7 +4047,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4229,7 +4229,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4415,7 +4415,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4605,7 +4605,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4799,7 +4799,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -4997,7 +4997,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -5199,7 +5199,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -5405,7 +5405,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -5615,7 +5615,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -5829,7 +5829,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -6047,7 +6047,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -6269,7 +6269,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -6495,7 +6495,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -6725,7 +6725,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -6959,7 +6959,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -7197,7 +7197,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -7439,7 +7439,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -7685,7 +7685,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -7935,7 +7935,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -8189,7 +8189,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -8447,7 +8447,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -8709,7 +8709,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -8975,7 +8975,7 @@ apis:
 - name: Twitter
   x-api-slug: twitter
   description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
@@ -9246,7 +9246,7 @@ apis:
   x-api-slug: twitter
   description: From breaking news and entertainment to sports and politics, get the
     full story with all the live commentary.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/twitter-logo.png
   humanURL: https://twitter.com/
   baseURL: https://api.twitter.com//1.1
   tags: Social
