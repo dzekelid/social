@@ -7,791 +7,9237 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitte
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Social
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-19"
+modified: "2018-08-19"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Twitter Mentions Timelines
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the 20 most recent mentions for the authenticating user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/mentions_timeline
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
-- name: Twitter Show Timelines Status
+- name: Twitter
   x-api-slug: twitter
-  description: Returns a collection of the most recent Tweets posted by the User
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/user_timeline.json
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
-- name: Twitter Status Timeline
+- name: Twitter
   x-api-slug: twitter
-  description: Returns a collection of the most recent Tweets
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/home_timeline
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
-- name: Twitter Show Retweets
+- name: Twitter
   x-api-slug: twitter
-  description: Retweens a tweet
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/retweets/{id}
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
-- name: Twitter Show Retweet
+- name: Twitter
   x-api-slug: twitter
-  description: Retruns a single Tweet
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/show/{id}
-  tags: Social,Tweets
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
-- name: Twitter Remove Tweet
+- name: Twitter
   x-api-slug: twitter
-  description: Destroys the status specified by the required ID parameter
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/destroy/{id}
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
-- name: Twitter Update Status
+- name: Twitter
   x-api-slug: twitter
-  description: Updates the authenticating user's status
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/update
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
-- name: Twitter Oembed Statuses
+- name: Twitter
   x-api-slug: twitter
-  description: Returns information allowing the creation of an embedded representation
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//statuses/oembed
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
-- name: Twitter List LIst
+- name: Twitter
   x-api-slug: twitter
-  description: Return all lists the authenticating or specified user subscribes to,
-    including their own.
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/list
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
-- name: Twitter List Statuses
+- name: Twitter
   x-api-slug: twitter
-  description: Returns a timeline of tweets authored by memebers of the specified
-    list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/statuses.json
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
-- name: Twitter Remove User From List
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the list of memebers destroy
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/members/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
-- name: Twitter Get Memberships
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the lists of the specified user has been added to
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/memberships
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
-- name: Twitter List Subscribers
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the subscribers of the specified list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
-- name: Twitter Add List Subscribers
+- name: Twitter
   x-api-slug: twitter
-  description: Subscribes the authenticated user to the specified list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
-- name: Twitter Show List Subscribers
+- name: Twitter
   x-api-slug: twitter
-  description: Check if the specified user is a subscriber of the specified list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
-- name: Twitter Remove List Subscribers
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of subscribers destroy
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscribers/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
-- name: Twitter Add Users to List
+- name: Twitter
   x-api-slug: twitter
-  description: Returns lists of members create_all
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/members/create_all
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
-- name: Twitter Show Members
+- name: Twitter
   x-api-slug: twitter
-  description: Check if the specified user is a member of the specified list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
-- name: Twitter Get Members
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the members of the specified list
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
-- name: Twitter Add Member
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of members create
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
-- name: Twitter Destroy List
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of destroy
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/destroy
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
-- name: Twitter Update List
+- name: Twitter
   x-api-slug: twitter
-  description: Returns lists of updates
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/update
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
-- name: Twitter Create List
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of create
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/create
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
-- name: Twitter Show LIsts
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of show
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/show
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
-- name: Twitter Show List Subscriptions
+- name: Twitter
   x-api-slug: twitter
-  description: Returns list of subscriptions
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//lists/subscriptions
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
-- name: Twitter Remove Members
+- name: Twitter
   x-api-slug: twitter
-  description: Returns lists of destroy all
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//list/members/destroy_all
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
-- name: Twitter Get Sent Direct Messages
+- name: Twitter
   x-api-slug: twitter
-  description: return 20 most recent direct messages sent
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/sent
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
-- name: Twitter Show Direct Message
+- name: Twitter
   x-api-slug: twitter
-  description: returns a single direct message specified by an id
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/show
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
-- name: Twitter Search Tweets
+- name: Twitter
   x-api-slug: twitter
-  description: returns collection of relevant Tweets matching query
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//search/tweets.json
-  tags: Social,Statuses
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
-- name: Twitter List Saved Searches
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the authenticated user's saved search queries
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//saved_searches/list
-  tags: Social,Search
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
-- name: Twitter Get Saved Search
+- name: Twitter
   x-api-slug: twitter
-  description: Retrieve the information for the saved search represented by the given
-    id
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//saved_searches/show/{id}
-  tags: Social,Search
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
-- name: Twitter Create Saved Search
+- name: Twitter
   x-api-slug: twitter
-  description: Create a new saved search for the authenticated user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//saved_searches/create
-  tags: Social,Search
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
-- name: Twitter Destroy Saved Search
+- name: Twitter
   x-api-slug: twitter
-  description: Destroy a saved search for the authenticating user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//saved_searches/destroy/{id}
-  tags: Social,Search
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
-- name: Twitter Get Direct Messages
+- name: Twitter
   x-api-slug: twitter
-  description: return 20 most recent direct messages sent to user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
-- name: Twitter Remove Direct Message
+- name: Twitter
   x-api-slug: twitter
-  description: destroys direct messages specified in required ID
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/destroy
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
-- name: Twitter Create Direct Message
+- name: Twitter
   x-api-slug: twitter
-  description: sends a new direct message to specified user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//direct_messages/new
-  tags: Social,Messages
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
-- name: Twitter Get Friends
+- name: Twitter
   x-api-slug: twitter
-  description: returns a cursored collection of user IDs followed by user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friends/ids
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
-- name: Twitter Get Followers
+- name: Twitter
   x-api-slug: twitter
-  description: returns a cursored collection of user IDs following the user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//followers/ids
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
-- name: Twitter Get Friend Requests
+- name: Twitter
   x-api-slug: twitter
-  description: returns collection of IDs of users with pending follow request
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/incoming
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
-- name: Twitter Get Friend Requests
+- name: Twitter
   x-api-slug: twitter
-  description: returns collection of IDs of users with pending follow request from
-    the user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/outgoing
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
-- name: Twitter Follow User
+- name: Twitter
   x-api-slug: twitter
-  description: allows users to follow user sepcified by ID
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/create
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
-- name: Twitter Unfollow user
+- name: Twitter
   x-api-slug: twitter
-  description: allows user to unfollow user psecified by ID
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/destroy
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
-- name: Twitter Unfollow User
+- name: Twitter
   x-api-slug: twitter
-  description: Allows one to enable or disable settings for specified user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/update
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
-- name: Twitter Get Friends
+- name: Twitter
   x-api-slug: twitter
-  description: returns detailed info about relationship between two users
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//friendships/show
-  tags: Social,Friends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
-- name: Twitter Get Account Settings
+- name: Twitter
   x-api-slug: twitter
-  description: returns settings for user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/settings
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
-- name: Twitter Update  Account Settings
+- name: Twitter
   x-api-slug: twitter
-  description: updates user's settings
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/settings
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
-- name: Twitter Update Account Deliver Service
+- name: Twitter
   x-api-slug: twitter
-  description: sets which device Twitter delivers updates to for user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/update_delivery_device
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
-- name: Twitter Update Profile
+- name: Twitter
   x-api-slug: twitter
-  description: sets values that users ar eable to set under Account tab
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/update_profile
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
-- name: Twitter Update Profile Background Image
+- name: Twitter
   x-api-slug: twitter
-  description: updates user's profile background image
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/update_profile_background_image
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
-- name: Twitter Update Profile Colors
+- name: Twitter
   x-api-slug: twitter
-  description: sets one or more hex values that controls color scheme
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/update_profile_colors
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
-- name: Twitter Update Profile Image
+- name: Twitter
   x-api-slug: twitter
-  description: updates user's profile image
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//account/update_profile_image
-  tags: Social,Account
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
-- name: Twitter Block List
+- name: Twitter
   x-api-slug: twitter
-  description: disallows retweets and device notifications from a user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//blocks/list
-  tags: Social,Block
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
-- name: Twitter Block Users
+- name: Twitter
   x-api-slug: twitter
-  description: returns array of numeric user ids of blocked users
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//blocks/ids
-  tags: Social,Block
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
-- name: Twitter Block User
+- name: Twitter
   x-api-slug: twitter
-  description: blocks the specified user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//blocks/create
-  tags: Social,Block
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
-- name: Twitter Unblock User
+- name: Twitter
   x-api-slug: twitter
-  description: un-blocks the specified user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//blocks/destroy
-  tags: Social,Block
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
-- name: Twitter User Lookup
+- name: Twitter
   x-api-slug: twitter
-  description: returns fully-hydrated user objects up to 100
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/lookup
-  tags: Social,Users
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
-- name: Twitter Show User
+- name: Twitter
   x-api-slug: twitter
-  description: returns a variety of info about specified user
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/show
-  tags: Social,Users
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
-- name: Twitter User Search
+- name: Twitter
   x-api-slug: twitter
-  description: simple relevance-based user search
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/search.json
-  tags: Social,Users
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
-- name: Twitter User Contributees
+- name: Twitter
   x-api-slug: twitter
-  description: collection of users specified user can contribute to
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/contributees
-  tags: Social,Users
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
-- name: Twitter User Contributors
+- name: Twitter
   x-api-slug: twitter
-  description: collection of users that can contribute to specified account
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/contributors
-  tags: Social,Users
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
-- name: Twitter Show Place Trends
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the top 10 trending topics for a specific WOEID
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//trends/place.json
-  tags: Social,Trends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-openapi.md
-- name: Twitter Show Available Trends
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the availability
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//trends/available.json
-  tags: Social,Trends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-openapi.md
-- name: Twitter Show Closes Trends
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the location that Twitter has trending topic information for
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//trends/closest.json
-  tags: Social,Trends
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-openapi.md
-- name: Twitter Report User Spam
+- name: Twitter
   x-api-slug: twitter
-  description: Returna users report spam
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//users/report_spam
-  tags: Social,Users,Spam
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersreport-spam-post-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersreport-spam-post-openapi.md
-- name: Twitter Help Terms of Services
+- name: Twitter
   x-api-slug: twitter
-  description: Returns the Twitter Terms of Service
+  description: the-twitter-api-gives-you-programmatic-control-over-any-twitter-account-and-most-aspect-of-the-platform--allowing-developers-to-build-social-applications-that-use-the-platform-and-automate-interactions-between-users-
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/266-twitter.jpg
   humanURL: https://twitter.com/
-  baseURL: https://api.twitter.com//1.1//help/tos
-  tags: Social,Lists
+  baseURL: https://api.twitter.com//1.1
+  tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
+    Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
+    Data API, Relative Data API, Service API, Pedestal
   properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesuser-timeline-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statuseshome-timeline-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesretweetsid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesoembed-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsstatuses-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmembersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberships-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscribersdestroy-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsmemberscreate-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembers-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmemberscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listssubscriptions-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/listmembersdestroy-all-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagessent-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/searchtweets-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searcheslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesshowid-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchescreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/saved-searchesdestroyid-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messages-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/direct-messagesnew-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendsids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/followersids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsincoming-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsoutgoing-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsupdate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/friendshipsshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountsettings-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-delivery-device-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-background-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-colors-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/accountupdate-profile-image-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockslist-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksids-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blockscreate-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/blocksdestroy-post-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userslookup-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersshow-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userssearch-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributees-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/userscontributors-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsplace-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsavailable-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/trendsclosest-json-get-openapi.md
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersreport-spam-post-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/usersreport-spam-post-openapi.md
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/helptos-get-postman.md
   - type: x-openapi-spec
@@ -814,6 +9260,8 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-stack
+  url: http://twitter.stack.network
 - type: x-apple-sdk
   url: https://docs.fabric.io/apple/fabric/overview.html
 - type: x-application-management
