@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/465-repust
 x-kinRank: "8"
 x-alexaRank: "2958029"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/repustate/apis.md
 specificationVersion: "0.14"
 apis:

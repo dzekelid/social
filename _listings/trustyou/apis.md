@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/957-trusty
 x-kinRank: "7"
 x-alexaRank: "85806"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/trustyou/apis.md
 specificationVersion: "0.14"
 apis:

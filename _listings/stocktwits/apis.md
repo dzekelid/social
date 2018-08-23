@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/944-stockt
 x-kinRank: "8"
 x-alexaRank: "6524"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/stocktwits/apis.md
 specificationVersion: "0.14"
 apis:
@@ -24,6 +24,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/stocktwits/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://stocklytics.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://stocktwits.stack.network
 - type: x-authentication

@@ -12,8 +12,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/instagram/apis.md
 specificationVersion: "0.14"
 apis:
@@ -98,6 +98,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/instagram/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://infermedica.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://instagram.stack.network
 - type: x-application-management

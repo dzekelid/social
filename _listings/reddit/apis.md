@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3516-reddi
 x-kinRank: "9"
 x-alexaRank: "6"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/reddit/apis.md
 specificationVersion: "0.14"
 apis:
@@ -112,6 +112,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/reddit/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rebilly.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://reddit.stack.network
 - type: x-authentication

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/196-facebo
 x-kinRank: "9"
 x-alexaRank: "3"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/facebook/apis.md
 specificationVersion: "0.14"
 apis:
@@ -125,6 +125,8 @@ apis:
 x-common:
 - type: x-android-sdk
   url: https://developers.facebook.com/docs/android/share
+- type: x-api-gallery
+  url: http://expedia.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://facebook.stack.network
 - type: x-apigee-console

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1619-myspa
 x-kinRank: "7"
 x-alexaRank: "4691"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/myspace-developers/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,8 @@ apis:
 x-common:
 - type: x-website
   url: http://wiki.developer.myspace.com/index.php?title=Category:RESTful_API
+- type: x-api-gallery
+  url: http://mynewsdesk.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://myspace.developers.stack.network
 - type: x-blog

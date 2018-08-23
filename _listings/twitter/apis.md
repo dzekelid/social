@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "12"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/apis.md
 specificationVersion: "0.14"
 apis:
@@ -20,7 +20,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -34,7 +35,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -52,7 +54,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -74,7 +77,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -100,7 +104,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -130,7 +135,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -164,7 +170,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -202,7 +209,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -244,7 +252,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -290,7 +299,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -340,7 +350,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -394,7 +405,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -452,7 +464,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -514,7 +527,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -580,7 +594,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -650,7 +665,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -724,7 +740,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -802,7 +819,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -884,7 +902,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -970,7 +989,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1060,7 +1080,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1154,7 +1175,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1252,7 +1274,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1354,7 +1377,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1460,7 +1484,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1570,7 +1595,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1684,7 +1710,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1802,7 +1829,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -1924,7 +1952,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2050,7 +2079,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2180,7 +2210,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2314,7 +2345,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2452,7 +2484,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2594,7 +2627,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2740,7 +2774,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -2890,7 +2925,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3044,7 +3080,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3202,7 +3239,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3364,7 +3402,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3530,7 +3569,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3700,7 +3740,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -3874,7 +3915,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -4052,7 +4094,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -4234,7 +4277,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -4420,7 +4464,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -4610,7 +4655,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -4804,7 +4850,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -5002,7 +5049,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -5204,7 +5252,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -5410,7 +5459,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -5620,7 +5670,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -5834,7 +5885,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -6052,7 +6104,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -6274,7 +6327,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -6500,7 +6554,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -6730,7 +6785,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -6964,7 +7020,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -7202,7 +7259,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -7444,7 +7502,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -7690,7 +7749,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -7940,7 +8000,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -8194,7 +8255,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -8452,7 +8514,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -8714,7 +8777,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -8980,7 +9044,8 @@ apis:
   baseURL: https://api.twitter.com//1.1
   tags: Social, Social, My API Stack, API LIfeyclessss, Indie EdTech Data Jam, Imports,
     Stack Network, Stack, internet, Mobile, Technology, Social, Social Networks, General
-    Data API, Relative Data API, Service API, Pedestal
+    Data, Relative Data, Service API, Pedestal, Historical Data API, Relative StreamRank,
+    StreamRank
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twitter/statusesmentions-timeline-get-postman.md
@@ -9260,6 +9325,8 @@ x-common:
   url: https://docs.fabric.io/unity/mopub/overview.html
 - type: x-android-sdk
   url: https://docs.fabric.io/android/fabric/overview.html
+- type: x-api-gallery
+  url: http://twine.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://twitter.stack.network
 - type: x-apple-sdk

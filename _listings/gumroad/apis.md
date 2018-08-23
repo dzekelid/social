@@ -6,8 +6,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1067-gumro
 x-kinRank: "8"
 x-alexaRank: "4658"
 tags: Social
-created: "2018-08-19"
-modified: "2018-08-19"
+created: "2018-08-23"
+modified: "2018-08-23"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gumroad/apis.md
 specificationVersion: "0.14"
 apis:
@@ -23,6 +23,8 @@ apis:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gumroad/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://gsa.per.diem.api.api.gallery.streamdata.io
 - type: x-api-stack
   url: http://gumroad.stack.network
 - type: x-application-management
