@@ -7,26 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1669-orgsy
 x-kinRank: "8"
 x-alexaRank: "9043"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/orgsync/apis.md
 specificationVersion: "0.14"
-apis:
-- name: OrgSync
-  x-api-slug: orgsync
-  description: OrgSync provides an online campus engagement platform for education
-    communities, connecting students to organizations, departments, and programs with
-    the goal of improving communication, information sharing, collaboration, and reporting.The
-    OrgSync API provides a developer interface for customers to create campus specific
-    processes to leverage OrgSync data and services. All API access is over HTTPS.
-    Responses are JSON formatted.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1669-orgsync.jpg
-  humanURL: https://api.orgsync.com/api/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/orgsync/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.orgsync.com/

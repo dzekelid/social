@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/239-people
 x-kinRank: "7"
 x-alexaRank: "1841212"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peoplebrowsr-api/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PeopleBrowsr API
-  x-api-slug: peoplebrowsr-api
-  description: Discover and activate Profiles, Contacts and Conversations for your
-    community. Developers instantly deploy SocialOS??? BaaS for Parse, Slack and Twitter
-    apps.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/239-peoplebrowsr-api.jpg
-  humanURL: http://www.peoplebrowsr.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peoplebrowsr-api/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.peoplebrowsr.com/

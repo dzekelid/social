@@ -8,27 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/703-bazaar
 x-kinRank: "8"
 x-alexaRank: "21899"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/bazaarvoice/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Bazaarvoice Platform
-  x-api-slug: bazaarvoice-platform
-  description: The voice of the customer provides invaluable insight into how your
-    brand is perceived. Bazaarvoice allows clients to leverage this voice by creating
-    online social communities that encourage authentic conversations about your brand.
-    You can then amplify these conversations across a global network, allowing you
-    to connect directly with customers. We also provide the tools that allow you to
-    translate this user-generated content into actionable insights that drive improvements
-    in marketing, sales, customer service, and product development.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/703-bazaarvoice.jpg
-  humanURL: http://bazaarvoice.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/bazaarvoice/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://stg.api.bazaarvoice.com/

@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1085-livef
 x-kinRank: "7"
 x-alexaRank: "81"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/livefyre/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Livefyre
-  x-api-slug: livefyre
-  description: Livefyre is the best real-time conversation platform on the web. Replace
-    your outdated comment system and change the way people interact with content on
-    your site.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1085-livefyre.jpg
-  humanURL: http://www.livefyre.com/docs/getting-started/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/livefyre/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://fyre.co

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1761-menti
 x-kinRank: "7"
 x-alexaRank: "39035"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mention/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mention
-  x-api-slug: mention
-  description: Get the easy-to-use media monitoring tool that lets you track social
-    mentions, analyze competitors, find influencers, and generate leads.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1761-mention.jpg
-  humanURL: https://mention.net/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mention/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://web.mention.net/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1029-mygar
 x-kinRank: "7"
 x-alexaRank: "1960031"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mygarden-org/apis.md
 specificationVersion: "0.14"
-apis:
-- name: MyGarden.org
-  x-api-slug: mygarden-org
-  description: Manage your garden online, receive specific information for your garden
-    and share your knowledge with others.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1029-mygarden-org.jpg
-  humanURL: http://www.mygarden.org
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mygarden-org/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.mygarden.org/

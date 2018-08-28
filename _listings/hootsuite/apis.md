@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1602-hoots
 x-kinRank: "7"
 x-alexaRank: "1175"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/hootsuite/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Hootsuite
-  x-api-slug: hootsuite
-  description: Enhance your social media management with Hootsuite, the leading social
-    media dashboard. Manage multiple networks and profiles and measure your campaign
-    results.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1602-hootsuite.jpg
-  humanURL: http://hootsuite.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/hootsuite/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://d2l6uygi1pgnys.cloudfront.net/jsapi/

@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/571-dailym
 x-kinRank: "7"
 x-alexaRank: "266641"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/dailymile/apis.md
 specificationVersion: "0.14"
-apis:
-- name: dailymile
-  x-api-slug: dailymile
-  description: Share your training with friends and stay motivated. Find training
-    partners, local events, routes, and groups. Social training for runners, triathletes,
-    and cyclists.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/571-dailymile.jpg
-  humanURL: http://www.dailymile.com/api
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/dailymile/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.dailymile.com/blog/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1105-onesi
 x-kinRank: "7"
 x-alexaRank: "995370"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/onesite/apis.md
 specificationVersion: "0.14"
-apis:
-- name: onesite
-  x-api-slug: onesite
-  description: We deliver enterprise social networking solutions to our clients around
-    the world.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1105-onesite.jpg
-  humanURL: http://developer.onesite.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/onesite/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://developer.onesite.com/

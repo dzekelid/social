@@ -13,24 +13,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/825-janrai
 x-kinRank: "8"
 x-alexaRank: "327401"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/janrain/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Janrain Engage
-  x-api-slug: janrain-engage
-  description: Janrain Engage enables sites to provide a convenient and secure way
-    to sign up and sign in. Customers can create a site-specific palette of providers
-    selected from over twenty Identity Providers adapted by Janrain, such as AOL,
-    Facebook, Google, Hotmail, and Yahoo!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/825-janrain.jpg
-  humanURL: http://janrain.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/janrain/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://rpxnow.com/partner/

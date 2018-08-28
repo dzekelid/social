@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1423-helps
 x-kinRank: "7"
 x-alexaRank: "21211"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/helpshift/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Helpshift
-  x-api-slug: helpshift
-  description: Deliver superior support with Helpshift, a customer service platform
-    designed to improve customer satisfaction, optimize service operations and maximize
-    ROI. Our AI-first, bot-powered support software will help you scale the customer
-    experience while m...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1423-helpshift-sdk.jpg
-  humanURL: http://www.helpshift.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/helpshift/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/helpshift-inc

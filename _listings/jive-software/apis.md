@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1541-jive-
 x-kinRank: "7"
 x-alexaRank: "82487"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/jive-software/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Jive Software
-  x-api-slug: jive-software
-  description: Jive communication & collaboration software solutions - enterprise
-    social business software - helps people & organizations Work Better Together.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1541-jive-software.jpg
-  humanURL: https://jivesoftware.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/jive-software/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.jivesoftware.com/jivespace/community/jivetalks

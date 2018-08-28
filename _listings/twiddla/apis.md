@@ -8,24 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/507-twiddl
 x-kinRank: "7"
 x-alexaRank: "168735"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twiddla/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Twiddla
-  x-api-slug: twiddla
-  description: Twiddlas Application Programming Interface (API) lets you host Twiddla
-    meetings on your own website. You can create new meetings on the fly and embed
-    them into any page youd like. You can disable the bits you dont want to see, and
-    you can even show your own logo instead of ours.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/507-twiddla!.jpg
-  humanURL: http://www.twiddla.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/twiddla/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://www.twiddla.com/API/

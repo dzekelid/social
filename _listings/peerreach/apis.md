@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1607-peerr
 x-kinRank: "7"
 x-alexaRank: "5765924"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peerreach/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PeerReach
-  x-api-slug: peerreach
-  description: Join the right conversations with the right people. We find the most
-    relevant accounts for you.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1607-peerreach.jpg
-  humanURL: http://peerreach.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peerreach/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://api.peerreach.com/

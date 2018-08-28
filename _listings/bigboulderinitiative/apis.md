@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2940-bigbo
 x-kinRank: "8"
 x-alexaRank: "7512821"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/bigboulderinitiative/apis.md
 specificationVersion: "0.14"
-apis:
-- name: BigBoulderInitiative
-  x-api-slug: bigboulderinitiative
-  description: Big Boulder Initiative is an invite-only conference for the social
-    data industry to learn and grow against the challenges facing the industry.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2940-bigboulderinitiative.jpg
-  humanURL: http://bigboulderinitiative.org/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/bigboulderinitiative/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.bigboulderinitiative.org/

@@ -7,24 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/177-datasi
 x-kinRank: "8"
 x-alexaRank: "937297"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/datasift/apis.md
 specificationVersion: "0.14"
-apis:
-- name: DataSift
-  x-api-slug: datasift
-  description: Getting Started with the DataSift Platform is easy. Discover all the
-    things every developer needs to know. Jump right into the REST API or Streaming
-    API documentation. Explore DataSifts programming language and look at all the
-    data you can include in your DataSift streams.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/177-datasift-developer.jpg
-  humanURL: http://dev.datasift.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/datasift/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://dev.datasift.com/blog

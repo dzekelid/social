@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "273106"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/linkfluence/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Linkfluence
-  x-api-slug: linkfluence
-  description: We are proud to provide innovative social data intelligence solutions
-    that position brands and agencies ahead of the market. Every day we deliver actionable
-    insights by capturing, processing, enriching and transforming social data from
-    billions of online conversations.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/linkfluence_black_1000.png
-  humanURL: https://linkfluence.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/linkfluence/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://linkfluence.com/blog/

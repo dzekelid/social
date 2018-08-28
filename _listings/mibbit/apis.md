@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/846-mibbit
 x-kinRank: "7"
 x-alexaRank: "68843"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mibbit/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Mibbit
-  x-api-slug: mibbit
-  description: Mibbit is a fully featured IRC Client. Allowing you to interact realtime
-    with your friends. Chat, play games, colaborate on projects together and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/846-mibbit.jpg
-  humanURL: http://mibbit.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/mibbit/openapi.md
+apis: []
 x-common:
 - type: x-developer
   url: http://wiki.mibbit.com/index.php/API

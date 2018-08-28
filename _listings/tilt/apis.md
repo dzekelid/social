@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1399-tilt.
 x-kinRank: "7"
 x-alexaRank: "586387"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tilt/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Tilt
-  x-api-slug: tilt
-  description: Invite your group to chip in, track who has paid, and make something
-    happen without having to front the cost yourself.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1399-tilt.jpg
-  humanURL: https://www.tilt.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tilt/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.tilt.com

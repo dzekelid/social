@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/937-speake
 x-kinRank: "7"
 x-alexaRank: "4887057"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/speakerrate/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SpeakerRate
-  x-api-slug: speakerrate
-  description: SpeakerRate is a site built to find speakers, provide constructive
-    feedback for talks, and research upcoming events.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/937-speakerrate.jpg
-  humanURL: http://speakerrate.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/speakerrate/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://speakerrate.com/

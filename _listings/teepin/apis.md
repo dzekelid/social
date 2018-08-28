@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/teepin/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Teepin
-  x-api-slug: teepin
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logo_teepin.jpg
-  humanURL: https://www.teepin.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/teepin/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://www.teepin.com/api/

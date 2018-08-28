@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1149-shopi
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/shopigniter/apis.md
 specificationVersion: "0.14"
-apis:
-- name: ShopIgniter
-  x-api-slug: shopigniter
-  description: The Social Performance Marketing Platform
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1149-shopigniter.jpg
-  humanURL: http://developers.shopigniter.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/shopigniter/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://developers.shopigniter.com/

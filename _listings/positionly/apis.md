@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1662-posit
 x-kinRank: "8"
 x-alexaRank: "519300"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/positionly/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Positionly
-  x-api-slug: positionly
-  description: Positionly is a website analytics platform. Positionly monitors website
-    positions, user engagement, clickthrus, keyword searches, and SEO components.
-    The Positionly API allows developers to access and integrate the functionality
-    of Positionly with other applications. Some example API methods include retrieving
-    and managing keywords, managing users, and managing websites.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1662-positionly.jpg
-  humanURL: https://positionly.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/positionly/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.positionly.com/

@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1169-stesc
 x-kinRank: "7"
 x-alexaRank: "7082009"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/stescodes-social-login/apis.md
 specificationVersion: "0.14"
-apis:
-- name: StesCodes Social Login
-  x-api-slug: stescodes-social-login
-  description: Social inviter enables your user to import contacts, import friends,
-    send message to friends, fetches user profile and post content to social networks
-    in clicks.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1169-stescodes-social-login.jpg
-  humanURL: http://stescodes.com/sociallogin.aspx
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/stescodes-social-login/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://stescodes.com/sociallogin.aspx

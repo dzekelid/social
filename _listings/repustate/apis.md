@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/465-repust
 x-kinRank: "8"
 x-alexaRank: "2958029"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/repustate/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Repustate
-  x-api-slug: repustate
-  description: Sentiment analysis and text analytics via a simple to use API. Repustate
-    can analyze text in multiple languages for sentiment and semantic insights.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/465-repustate.jpg
-  humanURL: https://www.repustate.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/repustate/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.repustate.com/

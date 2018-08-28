@@ -7,22 +7,11 @@ image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/punkrock-org/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Punkrock.org
-  x-api-slug: punkrock-org
-  description: A Community of Punk Rock Bands, Punk News, Punk Music Videos, Articles,
-    Blogs, Photos and More...
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: http://punkrock.org
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/punkrock-org/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: http://punkrock.org/

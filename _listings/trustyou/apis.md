@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/957-trusty
 x-kinRank: "7"
 x-alexaRank: "85806"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/trustyou/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TrustYou
-  x-api-slug: trustyou
-  description: Leverage guest feedback to improve the guest experience, increase your
-    hotels online visibility, improve operations, and drive more bookings with TrustYou.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/957-trustyou.jpg
-  humanURL: http://www.trustyou.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/trustyou/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.trustyou.com/

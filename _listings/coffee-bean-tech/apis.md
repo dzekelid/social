@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1001-coffe
 x-kinRank: "7"
 x-alexaRank: "3862580"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/coffee-bean-tech/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Coffee Bean Tech
-  x-api-slug: coffee-bean-tech
-  description: Customer Identity to increase revenue, customer retention and customer
-    experience.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1001-coffee-bean-tech.jpg
-  humanURL: http://coffeebeantech.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/coffee-bean-tech/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/coffeebean-technology

@@ -7,36 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-login
 x-kinRank: "8"
 x-alexaRank: "60839"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/loginradius/apis.md
 specificationVersion: "0.14"
-apis:
-- name: LoginRadius
-  x-api-slug: loginradius
-  description: Even a website with great content and design has trouble attracting
-    new users because of all the hassle associated with creating a new account and
-    remembering new usernames and passwords. With LoginRadius, you can convert more
-    website visitors into registered users by eliminating all of these annoying steps.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
-  humanURL: http://www.loginradius.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/loginradius/openapi.md
-- name: Matrix Login Operations API
-  x-api-slug: matrix-login-operations-api
-  description: Matrix is an open standard for decentralised communication, providing
-    simple HTTP APIs and open source reference implementations for securely distributing
-    and persisting JSON over an open federation of servers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1086-loginradius.jpg
-  humanURL: http://www.loginradius.com/
-  baseURL: :///login/http://localhost:8008/_matrix/client/api/v1
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/loginradius/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://lloyds.bank.api.gallery.streamdata.io

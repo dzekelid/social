@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1237-usa-g
 x-kinRank: "9"
 x-alexaRank: "9980"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/usa-gov/apis.md
 specificationVersion: "0.14"
-apis:
-- name: USA.gov
-  x-api-slug: usa-gov
-  description: We help you discover official U.S. government information and services
-    on the Internet.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1237-usa-gov.jpg
-  humanURL: http://www.usa.gov/About/developer-resources/social-media-registry.shtml
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/usa-gov/openapi.md
+apis: []
 x-common:
 - type: x-api-json--authoritative
   url: http://apis.io/apisdef/legacy/usagov.json

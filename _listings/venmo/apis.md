@@ -8,22 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo
 x-kinRank: "8"
 x-alexaRank: "3421"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/venmo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Venmo API
-  x-api-slug: venmo-api
-  description: The Venmo API provides developers a straightforward way to integrate
-    Venmo into their applications.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2177-venmo.jpg
-  humanURL: https://venmo.com/
-  baseURL: https://api.venmo.com//v1
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/venmo/openapi.md
+apis: []
 x-common:
 - type: x-android-sdk
   url: https://github.com/venmo/app-switch-android

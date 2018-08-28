@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1482-sysom
 x-kinRank: "7"
 x-alexaRank: "116041"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/sysomos/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Sysomos
-  x-api-slug: sysomos
-  description: A unified, insights-driven social platform empowering marketers to
-    search, discover, listen, publish, engage, and analyze across earned, owned, and
-    paid media.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1482-sysomos.jpg
-  humanURL: https://sysomos.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/sysomos/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://sysomos.com/

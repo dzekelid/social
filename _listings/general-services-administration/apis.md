@@ -11,26 +11,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/general-services-administration/apis.md
 specificationVersion: "0.14"
-apis:
-- name: General Services Administration
-  x-api-slug: general-services-administration
-  description: The General Services Administration (GSA) is an independent agency
-    of the United States government, established in 1949 to help manage and support
-    the basic functioning of federal agencies. The GSA supplies products and communications
-    for U.S. government offices, provides transportation and office space to federal
-    employees, and develops government-wide cost-minimizing policies, and other management
-    tasks.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/280px-US-GeneralServicesAdministration-Seal-Alt.svg.png
-  humanURL: http://www.gsa.gov
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/general-services-administration/openapi.md
+apis: []
 x-common:
 - type: x-developer
   url: http://www.gsa.gov/developers/

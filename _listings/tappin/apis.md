@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/949-tappin
 x-kinRank: "8"
 x-alexaRank: "595581"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tappin/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TappIn
-  x-api-slug: tappin
-  description: TappIn revolutionizes your ability to securely and easily share and
-    access digital files stores on a home or work computer from any web browser or
-    smartphone.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/949-tappin.jpg
-  humanURL: http://www.tappin.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tappin/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.tappin.com/blog

@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/714-boxcar
 x-kinRank: "8"
 x-alexaRank: "1280273"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/boxcar/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Box Car
-  x-api-slug: box-car
-  description: 'For Developers: a push platform with SDKs, APIs and admin console.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/714-boxcar.jpg
-  humanURL: http://boxcar.io
-  baseURL: https://boxcar.io//devices/providers/%7Bprovider_key%7D/
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/boxcar/openapi.md
+apis: []
 x-common:
 - type: x-api-gallery
   url: http://box.api.gallery.streamdata.io

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1059-fixya
 x-kinRank: "7"
 x-alexaRank: "4507"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/fixya/apis.md
 specificationVersion: "0.14"
-apis:
-- name: FixYa
-  x-api-slug: fixya
-  description: Product troubleshooting support, DIY advice, and help from experts
-    & local pros. Ask questions and get answers to fix, repair, and service any product.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1059-fixya.jpg
-  humanURL: http://www.fixya.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/fixya/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.fixya.com

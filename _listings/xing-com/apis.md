@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1502-xing_
 x-kinRank: "7"
 x-alexaRank: "1579"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/xing-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: XING_com
-  x-api-slug: xing-com
-  description: XING ist das fhrende soziale Netzwerk fr berufliche Kontakte mit fast
-    11 Millionen Mitgliedern im deutschsprachigen Raum. Auf XING vernetzen sich Berufsttige
-    aller Branchen, sie suchen und finden Jobs, Mitarbeiter, Auftrge, Kooperationspartner,
-    fac...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1502-xing_com.jpg
-  humanURL: https://xing.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/xing-com/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://xing.com

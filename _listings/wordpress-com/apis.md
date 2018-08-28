@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/969-wordpr
 x-kinRank: "9"
 x-alexaRank: "56"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/wordpress-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: WordPress.com
-  x-api-slug: wordpress-com
-  description: Create a free website or easily build a blog on WordPress.com. Dozens
-    of free, customizable, mobile-ready designs and themes. Free hosting and support.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/969-wordpress-com.jpg
-  humanURL: http://wordpress.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/wordpress-com/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://wordpress.com

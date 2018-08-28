@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/599-get-lo
 x-kinRank: "7"
 x-alexaRank: "1404984"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/get-localization/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Get Localization
-  x-api-slug: get-localization
-  description: Get Localization provides professional translation, translation management
-    system and crowdsourcing services.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/599-get-localization.jpg
-  humanURL: http://www.getlocalization.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/get-localization/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.getlocalization.com

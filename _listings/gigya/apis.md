@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/600-gigya.
 x-kinRank: "8"
 x-alexaRank: "2111"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gigya/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Gigya
-  x-api-slug: gigya
-  description: Identify, engage & build single customer views to create relevant,
-    personalized experiences. Designed to meet privacy, compliance & security best
-    practices.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/600-gigya.jpg
-  humanURL: http://gigya.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gigya/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://socialize.gigya.com/

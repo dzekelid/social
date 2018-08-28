@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2715-oauth
 x-kinRank: "10"
 x-alexaRank: "771609"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/oauth-io/apis.md
 specificationVersion: "0.14"
-apis:
-- name: oAuth.io
-  x-api-slug: oauth-io
-  description: Integrate 100+ OAuth providers in minutes. Setup your keys, install
-    oauth.js, and you are ready to play !
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2715-oauth-io.jpg
-  humanURL: https://oauth.io/home/pricing
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/oauth-io/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://oauth.io

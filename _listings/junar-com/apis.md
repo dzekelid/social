@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/827-junar-
 x-kinRank: "8"
 x-alexaRank: "1812573"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/junar-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Junar.com
-  x-api-slug: junar-com
-  description: Fast, easy, and affordable way to transform data into resources that
-    businesses, governments, NGOs, academia and citizens can use.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/827-junar-com.jpg
-  humanURL: http://www.junar.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/junar-com/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.junar.com

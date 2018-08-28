@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/634-peerin
 x-kinRank: "7"
 x-alexaRank: "31701"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peerindex/apis.md
 specificationVersion: "0.14"
-apis:
-- name: PeerIndex
-  x-api-slug: peerindex
-  description: Our technology helps the worlds biggest brands listen to their customers
-    and understand consumer trends.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/634-peerindex.jpg
-  humanURL: http://dev.peerindex.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/peerindex/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.peerindex.com

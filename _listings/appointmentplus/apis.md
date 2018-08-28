@@ -9,23 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/349-appoin
 x-kinRank: "7"
 x-alexaRank: "38885"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/appointmentplus/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Appointment-Plus
-  x-api-slug: appointmentplus
-  description: Our Schedule Connect is a simple, powerful and secure web services
-    API. Use Schedule Connect to sync customer and appointment data with other systems.  Schedule
-    Connect requests are sent via http(s) and returns are made in XML or JSON.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/349-appointmentplus.jpg
-  humanURL: http://www.appointment-plus.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/appointmentplus/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://www.appointment-plus.com/blog/

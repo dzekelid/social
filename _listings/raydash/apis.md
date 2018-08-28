@@ -6,21 +6,11 @@ image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/raydash/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Raydash
-  x-api-slug: raydash
-  description: ""
-  image: https://s3.amazonaws.com/kinlane-productions/api-evangelist/api-butterfly.png
-  humanURL: http://www.raydash.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/raydash/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.raydash.com

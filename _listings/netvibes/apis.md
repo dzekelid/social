@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/443-netvib
 x-kinRank: "7"
 x-alexaRank: "7431"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/netvibes/apis.md
 specificationVersion: "0.14"
-apis:
-- name: netvibes
-  x-api-slug: netvibes
-  description: 'Your Personal Dashboard: See everything thats happening: News, social
-    media, favorite websites all in one Dashboard'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/443-netvibes.jpg
-  humanURL: http://dev.netvibes.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/netvibes/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.netvibes.com/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/800-gaggle
 x-kinRank: "7"
 x-alexaRank: "169318"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gaggleamp/apis.md
 specificationVersion: "0.14"
-apis:
-- name: GaggleAMP
-  x-api-slug: gaggleamp
-  description: GaggleAMP is an employee advocacy solution that helps companies amplify
-    reach and marketing efforts by tapping into the passion of employees and stakeholders.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/800-gaggleamp.jpg
-  humanURL: https://www.gaggleamp.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gaggleamp/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://gaggleamp.com/blog/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1781-perco
 x-kinRank: "7"
 x-alexaRank: "114902"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/percolate/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Percolate
-  x-api-slug: percolate
-  description: Percolate is the leading Content Marketing Platform for the enterprise.
-    Percolate offers solutions to manage the production of campaigns and content.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1781-percolate.jpg
-  humanURL: http://percolate.com/features/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/percolate/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.percolate.com/

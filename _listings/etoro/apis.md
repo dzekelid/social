@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28338-api-
 x-kinRank: "7"
 x-alexaRank: "3337"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/etoro/apis.md
 specificationVersion: "0.14"
-apis:
-- name: eToro
-  x-api-slug: etoro
-  description: 'Using eToros innovative trading platform, you can trade and invest
-    in stocks, cryptocurrencies, ETFs, currencies, indices and commodities or copy
-    leading investors using our patented CopyTrader system. Become part of the Fintech
-    revolution today: Join...'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28338-api-portal-etoro-com.jpg
-  humanURL: https://etoro.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/etoro/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/etoro

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1160-socia
 x-kinRank: "7"
 x-alexaRank: "149907"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/socialreport-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: SocialReport.com
-  x-api-slug: socialreport-com
-  description: Social Report is a social media management software created to help
-    businesses grow their social media presence. Try it free.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1160-socialreport-com.jpg
-  humanURL: http://www.socialreport.com/social-report-api.html
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/socialreport-com/openapi.md
+apis: []
 x-common:
 - type: x-blog-rss
   url: http://www.socialreport.com/blog/feed/

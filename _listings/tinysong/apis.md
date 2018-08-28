@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/5
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tinysong/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Tinysong
-  x-api-slug: tinysong
-  description: TinySong is like TinyURL but for music. Users can search for songs
-    online by artist or title. The site then turns these links into short links that
-    can be sent to friends.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/500_logo.png
-  humanURL: http://www.tinysong.com/api
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tinysong/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.tinysong.com/api

@@ -7,14 +7,14 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gig--crowd/apis.md
 specificationVersion: "0.14"
 apis:
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
+- name: GIG & Crowd - Post Account External Register Usersocialid
+  x-api-slug: apiv1accountexternalregisterusersocialid-post
+  description: Post account external register usersocialid.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
@@ -22,30 +22,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gig--crowd/apiv1accountexternalregisterusersocialid-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: ""
+- name: GIG & Crowd - Post Gigme Account External Register Usersocialid
+  x-api-slug: apiv1gigmeaccountexternalregisterusersocialid-post
+  description: Post gigme account external register usersocialid.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
   humanURL: https://gigandcrowd.com
   baseURL: https://gigandcrowd.com//
   tags: Events, Concerts, Entertainment, Relative Data
   properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gig--crowd/apiv1accountexternalregisterusersocialid-post-openapi.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gig--crowd/apiv1gigmeaccountexternalregisterusersocialid-post-openapi.md
-- name: GIGANDCROWD
-  x-api-slug: gigandcrowd
-  description: 'A unique system of the order and booking of artists: negotiations,
-    coordination of conditions, convenient reminders of fee payment terms and rider
-    preparation.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png
-  humanURL: https://gigandcrowd.com
-  baseURL: https://gigandcrowd.com//
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/gig--crowd/openapi.md
 x-common:
 - type: x-openapi
   url: https://gigandcrowd.com/swagger/docs/v1

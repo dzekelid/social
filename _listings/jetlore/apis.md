@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1435-jetlo
 x-kinRank: "7"
 x-alexaRank: "1625202"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/jetlore/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Jetlore
-  x-api-slug: jetlore
-  description: Jetlores Prediction Platform empowers retailers with AI-drlven content,
-    by   turning consumer behavior into actionable data about their customers.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1435-jetlore.jpg
-  humanURL: http://jetlore.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/jetlore/openapi.md
+apis: []
 x-common:
 - type: x-crunchbase
   url: https://crunchbase.com/organization/jetlore

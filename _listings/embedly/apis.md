@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/190-embedl
 x-kinRank: "8"
 x-alexaRank: "77460"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/embedly/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Embedly
-  x-api-slug: embedly
-  description: Embedly delivers the ultra-fast, easy to use products and tools for
-    richer sites and apps.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/190-embedly.jpg
-  humanURL: http://embed.ly/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/embedly/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: https://twitter.com/weogeostatus

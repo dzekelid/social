@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1462-patha
 x-kinRank: "7"
 x-alexaRank: "140868"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/pathable/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Pathable
-  x-api-slug: pathable
-  description: Award-winning event apps and websites for conferences, meetings & trade
-    shows. User-friendly back end which integrates with most registration software.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1462-pathable.jpg
-  humanURL: http://www.pathable.com/developer-api/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/pathable/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.pathable.com/developer-api/

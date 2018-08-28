@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/520-viralh
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viralheat/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Viralheat
-  x-api-slug: viralheat
-  description: '@Cision Social Edition (Formerly Viralheat). Social media marketing
-    platform for monitoring, publishing, analytics, & reporting.'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/520-viralheat.jpg
-  humanURL: http://www.viralheat.com/home/api
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viralheat/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.viralheat.com/home/api

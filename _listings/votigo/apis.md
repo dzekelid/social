@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1238-votig
 x-kinRank: "7"
 x-alexaRank: "212743"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/votigo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Votigo
-  x-api-slug: votigo
-  description: Votigo, Inc. is a privately-held company with offices in the San Francisco
-    Bay Area, Boulder, CO, and Hyderabad, India. The company was founded in 2006 to
-    help businesses better engage their customers, build brand awareness, and increase
-    revenue throug...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1238-votigo.jpg
-  humanURL: http://www.votigo.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/votigo/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.votigo.com/

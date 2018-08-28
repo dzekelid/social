@@ -8,33 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2163-prima
 x-kinRank: "7"
 x-alexaRank: "4587557"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/primal/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Primal
-  x-api-slug: primal
-  description: Primal is a cloud-based data service (DaaS) that filters and organizes
-    Web content based on the interests of individual end users. Primal&#039;s RESTful
-    API allows developers create expansive semantic networks representing the interests
-    of end-users. These interest networks can be used to personalize your products
-    and services. The service can connect to any publicly accessible sources of content
-    on the Web, delivering information that&#039;s precisely filtered according to
-    the interests of your end-users. Each call to the API is formated as a simple
-    URL that describes a topic. The data response presents a hierarchy of related
-    topics that describe the interest to a high level of fidelity. The data response
-    also includes content abstracts that are tagged with the topics of interest. Primal&#039;s
-    underlying AI includes a learning mechanism that acquires and refines this interest
-    data over time, making the ongoing operation and maintenance of the data seamless
-    and painless.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2163-primal.jpg
-  humanURL: https://about.primal.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/primal/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.primal.com/

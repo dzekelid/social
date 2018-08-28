@@ -8,26 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1324-edmod
 x-kinRank: "7"
 x-alexaRank: "1760"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/edmodo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Edmodo
-  x-api-slug: edmodo
-  description: Edmodo acts as a social network for educators and students, providing
-    a secure environment to connect and collaborate, access homework and grades, share
-    content, and engage in class discussions. Edmodo Platform provides independent
-    developers and digital publishers access to the site????s suite of features, with
-    the goal of developing an evolving catalog of apps and enabling deeper and broader
-    functionality within the Edmodo platform.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1324-edmodo.jpg
-  humanURL: http://www.edmodo.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/edmodo/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://appsapi.edmodo.com/

@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/510-thecou
 x-kinRank: "7"
 x-alexaRank: "101401"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/thecounter/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TheCounter
-  x-api-slug: thecounter
-  description: Get a clear overview and graph of your Twitter stats. Twitter Counter
-    tracks statistics for over 180 million users.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/510-thecounter.jpg
-  humanURL: http://twittercounter.com/pages/api
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/thecounter/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://twittercounter.com/blog?ref=footer

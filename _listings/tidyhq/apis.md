@@ -9,27 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1600-tidy.
 x-kinRank: "8"
 x-alexaRank: "479952"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tidyhq/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TidyClub
-  x-api-slug: tidyclub
-  description: TidyClub is a club management platform. Clubs, committees, and organizations
-    can use TidyClub to manage the logistics and details for their association, with
-    features like communication tools, accepting payments, and managing tasks and
-    projects.The TidyClub API allows developers to access and integrate the functionality
-    of TidyClub with other applications and to create new applications. Some example
-    API methods include managing members, listing meetings and meeting details, and
-    tracking financial transactions.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1600-tidy.jpg
-  humanURL: http://www.tidyhq.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tidyhq/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://www.tidyhq.com

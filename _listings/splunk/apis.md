@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10-splunk-
 x-kinRank: "7"
 x-alexaRank: "16362"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/splunk/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Splunk
-  x-api-slug: splunk
-  description: Splunk Inc. turns machine data into answers with the leading platform
-    to tackle the toughest IT, IoT and security challenges. Use Splunk to search,
-    monitor, analyze and visualize machine data.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/10-splunk-dev.jpg
-  humanURL: http://splunk.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/splunk/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://127.0.0.1

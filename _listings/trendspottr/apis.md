@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1184-trend
 x-kinRank: "7"
 x-alexaRank: "1620160"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/trendspottr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: trendspottr
-  x-api-slug: trendspottr
-  description: 'TrendSpottr: Predictive trend intelligence for brands, marketers &
-    PR pros. Discover emerging trends, viral content & key influencers for any topic'
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1184-trendspottr.jpg
-  humanURL: http://trendspottr.com/api/v1.1/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/trendspottr/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://trendspottr.tumblr.com

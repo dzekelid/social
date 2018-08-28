@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/screenr/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Screenr
-  x-api-slug: screenr
-  description: ""
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screenr.png
-  humanURL: http://business.screenr.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/screenr/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://blog.screenr.com/

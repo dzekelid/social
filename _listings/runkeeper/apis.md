@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/916-runkee
 x-kinRank: "8"
 x-alexaRank: "26027"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/runkeeper/apis.md
 specificationVersion: "0.14"
-apis:
-- name: RunKeeper
-  x-api-slug: runkeeper
-  description: Join the community of over 45 million runners who make every run amazing
-    with Runkeeper. Track your workouts and reach your fitness goals!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/916-runkeeper.jpg
-  humanURL: http://runkeeper.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/runkeeper/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://runkeeper.com/blog

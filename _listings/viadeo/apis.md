@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1622-viade
 x-kinRank: "7"
 x-alexaRank: "8907"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viadeo/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Viadeo
-  x-api-slug: viadeo
-  description: 65 million members | 2 700 000 companies | 30 000 groups | Jobs | 5
-    alumni | Professional network - United States.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1622-viadeo.jpg
-  humanURL: http://dev.viadeo.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viadeo/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://dev.viadeo.com/

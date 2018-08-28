@@ -9,24 +9,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/794-zurb.j
 x-kinRank: "7"
 x-alexaRank: "20508"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/zurb/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Zurb
-  x-api-slug: zurb
-  description: ZURB, creating unique customer and user experiences. We are brand engineers
-    that provide companies with strategic marketing, design and branding solutions.
-    Work includes identity, branding, information design, web design, illustration,
-    software design,...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/794-zurb.jpg
-  humanURL: http://zurb.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/zurb/openapi.md
+apis: []
 x-common:
 - type: x-blog
   url: http://zurb.com/blog/

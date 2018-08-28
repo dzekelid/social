@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1530-viafo
 x-kinRank: "8"
 x-alexaRank: "1280216"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viafoura/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Viafoura
-  x-api-slug: viafoura
-  description: Experience the market-leading Viafoura audience engagement and development
-    platform. Offering media, broadcast and entertainment brands user registration,
-    comment moderation, analytics, push notifications and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1530-viafoura.jpg
-  humanURL: http://viafoura.com/
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/viafoura/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.viafoura.com/

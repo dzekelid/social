@@ -7,22 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1192-ubunt
 x-kinRank: "7"
 x-alexaRank: "1661"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/ubuntu/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Ubuntu
-  x-api-slug: ubuntu
-  description: Ubuntu is an open source software operating system that runs from the
-    desktop, to the cloud, to all your internet connected things.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1192-ubuntu.jpg
-  humanURL: https://one.ubuntu.com/developer/#account-admin-apis
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/ubuntu/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: https://one.ubuntu.com/developer/#account-admin-apis

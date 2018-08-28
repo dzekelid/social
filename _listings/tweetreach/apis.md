@@ -6,21 +6,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1304-tweet
 x-kinRank: "7"
 x-alexaRank: "144649"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tweetreach/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TweetReach
-  x-api-slug: tweetreach
-  description: Powerful Twitter analytics for smart marketers, built by Union Metrics.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1304-tweetreach.jpg
-  humanURL: http://apidocs.tweetreach.com/wiki/API_Overview
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tweetreach/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://apidocs.tweetreach.com/wiki/API_Overview

@@ -7,23 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/263-tradek
 x-kinRank: "7"
 x-alexaRank: "42532"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tradeking/apis.md
 specificationVersion: "0.14"
-apis:
-- name: TradeKing
-  x-api-slug: tradeking
-  description: Log in to your Ally Invest account and manage your online stock and
-    options trades. Gain access to research, tools, calculators, educational content,
-    and more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/263-tradeking.jpg
-  humanURL: http://tradeking.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/tradeking/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.tradeking.com/

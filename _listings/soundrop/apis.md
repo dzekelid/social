@@ -8,23 +8,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1550-sound
 x-kinRank: "7"
 x-alexaRank: "249010"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/soundrop/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Soundrop
-  x-api-slug: soundrop
-  description: License cover songs & video game music - Free music distribution for
-    original songs across top platforms. Collaborator & royalty MGMT - No recurring
-    fees!
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1550-soundrop.jpg
-  humanURL: http://soundrop.fm/partners/developers
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/soundrop/openapi.md
+apis: []
 x-common:
 - type: x-website
   url: http://soundrop.fm/partners/developers

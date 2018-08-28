@@ -7,25 +7,11 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1062-fundr
 x-kinRank: "7"
 x-alexaRank: "1467204"
 tags: Social
-created: "2018-08-23"
-modified: "2018-08-23"
+created: "2018-08-28"
+modified: "2018-08-28"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/fundraise-com/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Fundraise.com
-  x-api-slug: fundraise-com
-  description: Fundraise.com provides a RESTful API that exposes the majority of the
-    data and actions available to each user account via a JSON interface. Incoming
-    data can be sent as a POST or as JSON provided the mime-type of application/json
-    is sent in the request headers. Most actions are performed on either an organization
-    or a fundraiser. All fundraisers are scoped beneath organizations.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1062-fundraise-com-.jpg
-  humanURL: https://www.fundraise.com
-  baseURL: https:///
-  tags: Social
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/social/master/_listings/fundraise-com/openapi.md
+apis: []
 x-common:
 - type: x-base
   url: https://api.fundraise.com/
